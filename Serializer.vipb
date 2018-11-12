@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-11-12 13:37:04" Creator="Francois Normandin" Comments="" ID="ba911f23f08596d06265963535288152">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2018-06-04 19:50:03" Modified_Date="2018-11-12 14:55:22" Creator="Francois Normandin" Comments="" ID="cfe454f0c40151ca7969d6a7f566e6c4">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Serializer</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -259,7 +259,7 @@ Examples of other serializers could be Serializer.JSON, CfgManager.XML, etc.</D
         <Path>source\Serializer.PlainText\PlainText Serializer Instance.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96A53D71D47468B75FF3D352CBE576B8</GUID>
+      <GUID>1F8B89D7CD9AA7B26A42C326ABFBE71D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
