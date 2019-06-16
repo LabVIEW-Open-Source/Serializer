@@ -15,8 +15,10 @@
 		<Item Name="Serializer.lvclass" Type="LVClass" URL="../Serializer/Serializer.lvclass"/>
 		<Item Name="Serializer.FlattenedString.lvclass" Type="LVClass" URL="../Serializer.FlattenedString/Serializer.FlattenedString.lvclass"/>
 		<Item Name="Serializer.PlainText.lvclass" Type="LVClass" URL="../Serializer.PlainText/Serializer.PlainText.lvclass"/>
+		<Item Name="Serializer.PlainText.INI.lvclass" Type="LVClass" URL="../Serializer.INI/Serializer.PlainText.INI.lvclass"/>
 		<Item Name="PlainText Serializer Instance.vi" Type="VI" URL="../Serializer.PlainText/PlainText Serializer Instance.vi"/>
 		<Item Name="FlattenedString Serializer Instance.vi" Type="VI" URL="../Serializer.FlattenedString/FlattenedString Serializer Instance.vi"/>
+		<Item Name="INI Serializer Instance.vi" Type="VI" URL="../Serializer.INI/INI Serializer Instance.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
