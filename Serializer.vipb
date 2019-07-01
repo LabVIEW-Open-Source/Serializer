@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2019-06-16 19:59:09" Creator="Francois Normandin" Comments="" ID="0830ffbe61689997c5799ebd2b6186a9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2019-07-01 17:27:30" Creator="Francois Normandin" Comments="" ID="9b2d0e2a83aa4f2bfd1374f8ff29217d">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Serializer</Package_File_Name>
-    <Library_Version>1.0.3.9</Library_Version>
+    <Library_Version>1.0.4.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.2.0.6</External_Dependencies>
-      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.2.0.6</Direct_Dependencies>
+      <External_Dependencies>labview_open_source_lib_data_manipulation &gt;= 1.2.1.7</External_Dependencies>
+      <Direct_Dependencies>labview_open_source_lib_data_manipulation-1.2.1.7</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -44,7 +44,7 @@ Examples of other serializers could be Serializer.JSON, CfgManager.XML, etc.</D
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Adding support for Arrays in Serializer.PlainText.INI</Release_Notes>
+      <Release_Notes>Upgraded to Data Manipulation 1.2.1.7</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -278,7 +278,7 @@ Examples of other serializers could be Serializer.JSON, CfgManager.XML, etc.</D
         <Path>source\Serializer\Marshall.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8B27AB3A00DA54210D55EAD49F8F030E</GUID>
+      <GUID>760DFCA05E74E66594DBE3639B7EFF77</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
