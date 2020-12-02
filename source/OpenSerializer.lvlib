@@ -5,11 +5,11 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
-	<Item Name="Serializer.lvclass" Type="LVClass" URL="../Serializer.lvclass"/>
-	<Item Name="Serializer.FlattenedString.lvclass" Type="LVClass" URL="../../Serializer.FlattenedString/Serializer.FlattenedString.lvclass"/>
-	<Item Name="Serializer.PlainText.lvclass" Type="LVClass" URL="../../Serializer.PlainText/Serializer.PlainText.lvclass"/>
-	<Item Name="Serializer.PlainText.INI.lvclass" Type="LVClass" URL="../../Serializer.INI/Serializer.PlainText.INI.lvclass"/>
-	<Item Name="FlattenedString Serializer Instance.vi" Type="VI" URL="../../Serializer.FlattenedString/FlattenedString Serializer Instance.vi"/>
-	<Item Name="PlainText Serializer Instance.vi" Type="VI" URL="../../Serializer.PlainText/PlainText Serializer Instance.vi"/>
-	<Item Name="INI Serializer Instance.vi" Type="VI" URL="../../Serializer.INI/INI Serializer Instance.vi"/>
+	<Item Name="Serializer.lvclass" Type="LVClass" URL="../Serializer/Serializer.lvclass"/>
+	<Item Name="Serializer.FlattenedString.lvclass" Type="LVClass" URL="../Serializer.FlattenedString/Serializer.FlattenedString.lvclass"/>
+	<Item Name="Serializer.PlainText.lvclass" Type="LVClass" URL="../Serializer.PlainText/Serializer.PlainText.lvclass"/>
+	<Item Name="Serializer.PlainText.INI.lvclass" Type="LVClass" URL="../Serializer.INI/Serializer.PlainText.INI.lvclass"/>
+	<Item Name="FlattenedString Serializer Instance.vi" Type="VI" URL="../Serializer.FlattenedString/FlattenedString Serializer Instance.vi"/>
+	<Item Name="INI Serializer Instance.vi" Type="VI" URL="../Serializer.INI/INI Serializer Instance.vi"/>
+	<Item Name="PlainText Serializer Instance.vi" Type="VI" URL="../Serializer.PlainText/PlainText Serializer Instance.vi"/>
 </Library>
