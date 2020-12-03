@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2020-10-20 17:43:27" Creator="Francois Normandin" Comments="" ID="25b1daefaf4f07b1cac79b5a9c4eeb5b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2020-12-02 13:24:31" Creator="Francois Normandin" Comments="" ID="9fc3fab3e1dc3d0c7447ae3b38326ecc">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Serializer</Package_File_Name>
-    <Library_Version>1.1.0.13</Library_Version>
+    <Library_Version>1.1.1.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -44,9 +44,7 @@ Examples of other serializers could be Serializer.JSON, Serializer.XML, etc.</D
       <Copyright/>
       <Packager/>
       <URL>https://github.com/LabVIEW-Open-Source/Serializer</URL>
-      <Release_Notes>Changed the namespace from Serializer.lvclass to OpenSerializer,lvlib:Serializer.lvclass to remove risk of name collisions with other libraries performing similar tasks. (Serializer is too generic a name to be an open source project on its own).
-
-Added Binary (byte array) wrapper methods around the Marshalling and UnMarshalling API.</Release_Notes>
+      <Release_Notes>Fixed a couple bugs in OpenSerializer.PlainText during unmarshalling of simple string and unnamed cluster element in the type terminal input.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -308,7 +306,7 @@ Added Binary (byte array) wrapper methods around the Marshalling and UnMarshalli
         <Path>source\Serializer\UnMarshall (binary).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E7E6862AB869DC3D4444FACD5B07FFC2</GUID>
+      <GUID>CDD022144315D82B6D210590307F6B10</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
