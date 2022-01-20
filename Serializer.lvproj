@@ -18,6 +18,8 @@
 			</Item>
 			<Item Name="PlainText" Type="Folder">
 				<Item Name="Test Serializer.Text.vi" Type="VI" URL="../_unittests/Serializer.Text/Test Serializer.Text.vi"/>
+				<Item Name="Test Serializer.Text.issue5.vi" Type="VI" URL="../_unittests/Serializer.Text/Test Serializer.Text.issue5.vi"/>
+				<Item Name="Test Serializer.Text.issue10.vi" Type="VI" URL="../_unittests/Serializer.Text/Test Serializer.Text.issue10.vi"/>
 			</Item>
 			<Item Name="PlainText.INI" Type="Folder">
 				<Item Name="Test_Attribute.vi" Type="VI" URL="../_unittests/Serializer.Text.INI/Test_Attribute.vi"/>
