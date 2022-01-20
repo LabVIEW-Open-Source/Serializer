@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2022-01-16 17:35:20" Creator="Francois Normandin" Comments="" ID="3bc88ce8930bd98109ae53b469b06b73">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2018-06-04 19:50:03" Modified_Date="2022-01-19 20:52:50" Creator="Francois Normandin" Comments="" ID="38634f79a0bbc46bcd47861db99e925c">
   <Library_General_Settings>
     <Package_File_Name>LabVIEW_Open_Source_lib_Serializer</Package_File_Name>
-    <Library_Version>1.2.0.16</Library_Version>
+    <Library_Version>1.2.1.17</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>source</Library_Source_Folder>
     <Library_Output_Folder>_built-packages</Library_Output_Folder>
@@ -47,7 +47,8 @@ Examples of other serializers could be Serializer.JSON, Serializer.XML, etc.</D
       <Release_Notes>[Fix #5] Unmarshalling of arrays and clusters with nested arrays now work for non-matching datatypes
 [Fix #7] Serializing decimal points to enforce dot notation even for non-US systems (similar to JSON convention)
 [Fix #8] Numerics of decimal types serialize with at least one decimal point after dot
-[Fix #9] PlainText Cluster and Arrays deserialize decimal numbers correctly with enforcement of non-system decimal notation on non-US systems</Release_Notes>
+[Fix #9] PlainText Cluster and Arrays deserialize decimal numbers correctly with enforcement of non-system decimal notation on non-US systems
+[Fix #10] PlainText Serializer now correctly unmarshalls deeply nested clusters/arrays that contain multiple ] or } characters</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -338,7 +339,7 @@ Examples of other serializers could be Serializer.JSON, Serializer.XML, etc.</D
         <Path>source\Serializer.INI</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCA7EEEA54D7E217525EC7A35C5F11EF</GUID>
+      <GUID>CBAE8A2C33324F2649B8A2F70092C5D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -415,7 +416,7 @@ Examples of other serializers could be Serializer.JSON, Serializer.XML, etc.</D
         <Path>source\Serializer.INI\INIstringToVariant (Standard).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C2448396752495A274240A20C9F8D817</GUID>
+      <GUID>3AAD5AD8593E15AE41393C7A027B7A46</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -520,7 +521,7 @@ Examples of other serializers could be Serializer.JSON, Serializer.XML, etc.</D
         <Path>source\Serializer.PlainText\Escape String.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74F47AE7E96D588EDF1F2A11297E8DBE</GUID>
+      <GUID>50F0D6F40C69ACB81ACFCAEB490EBBDF</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
